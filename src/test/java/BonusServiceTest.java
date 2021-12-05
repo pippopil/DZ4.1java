@@ -47,7 +47,7 @@ class BonusServiceTest {
     }
 
     @Test
-    void shoudCalculateNRegistredAndBonusUnderLimit() {
+    void shoudCalculateNoRegistredAndBonusOverLimit() {
         BonusService service = new BonusService();
 
         long amount = 1000_000_000_60L;
